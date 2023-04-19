@@ -60,7 +60,7 @@ body{
     /* FINE JUMBOTRON */
     /* PACK SECTION */
         .pack-section-col-1, .pack-section-col-2{
-            height: 100px;
+            height: 70px;
         }
 
         .pack-section-col-3, .pack-section-col-3 .col-33{
@@ -68,12 +68,11 @@ body{
         }
 
         .pack-section-col-4{
-            height: 300px;
             margin-top: 50px;
         }
 
         .pack-section-col-4 .col-100:first-child{
-            height: 50px
+            height: 30px
         }
 
         .pack-section-col-4 .col-100:last-child{
@@ -97,6 +96,15 @@ body{
             height: calc(500px / 3);
         }
     /* FINE PARTNER SECTION */
+    /* OPERATION SECTION */
+        .operation-section-col-1{
+            height: 50px;
+        }
+
+        .operation-section-col-2{
+            height: 400px;
+        }
+    /* FINE OPERATION SECTION */
 /* FINE MAIN */
 
 /* UTILITIES */
@@ -112,7 +120,7 @@ body{
 
         .container-3{
             width: 50%;
-            margin: 100px auto;
+            margin: 150px auto;
         }
     /* FINE CONTAINER */
     /* ROW */
