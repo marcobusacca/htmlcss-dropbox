@@ -123,6 +123,15 @@ body{
             height: calc(704px / 2);
         }
     /* FINE TESTIMONIAL SECTION */
+    /* FREE TRIAL SECTION */
+        .free-trial-section{
+            background-color: #B4D0E7;
+        }
+
+        .free-trial-section .col-100{
+            height: 350px;
+        }
+    /* FINE FREE TRIAL SECTION */
 /* FINE MAIN */
 
 /* UTILITIES */
