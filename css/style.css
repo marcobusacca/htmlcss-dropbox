@@ -88,6 +88,15 @@ body{
             height: 100px;
         }
     /* FINE PACK SECTION */
+    /* PARTNER SECTION */
+        .partner-section-col-1, .partner-section-col-2{
+            height: 500px;
+        }
+
+        .partner-section-col-2 .col-100{
+            height: calc(500px / 3);
+        }
+    /* FINE PARTNER SECTION */
 /* FINE MAIN */
 
 /* UTILITIES */
@@ -103,7 +112,7 @@ body{
 
         .container-3{
             width: 50%;
-            margin: 100px auto 0px auto;
+            margin: 100px auto;
         }
     /* FINE CONTAINER */
     /* ROW */
@@ -124,9 +133,17 @@ body{
         .col-73{
             width: 73%;
         }
+        
+        .col-60{
+            width: 60%;
+        }
 
         .col-50{
             width: 50%;
+        }
+
+        .col-40{
+            width: 40%;
         }
 
         .col-33{
