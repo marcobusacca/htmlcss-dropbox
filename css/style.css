@@ -112,14 +112,8 @@ body{
             display: flex;
             flex-flow: row wrap;
         }
-
-        .row-column{
-            width: 100%;
-            display: flex;
-            flex-flow: column wrap;
-        }
     /* FINE ROW */
-    .row > div, .row-column > div{
+    .row > div{
         border: 1px dashed black;
     }
     /* COL */
