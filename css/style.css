@@ -132,6 +132,15 @@ body{
             height: 350px;
         }
     /* FINE FREE TRIAL SECTION */
+    /* FAQ SECTION */
+        .faq-col-1{
+            height: 70px;
+        }
+
+        .faq-col-2{
+            height: 50px;
+        }
+    /* FINE FAQ SECTION */
 /* FINE MAIN */
 
 /* UTILITIES */
@@ -153,6 +162,11 @@ body{
         .container-4{
             width: 100%;
             margin: 80px auto 0px auto;
+        }
+
+        .container-5{
+            width: 50%;
+            margin: 100px auto;
         }
     /* FINE CONTAINER */
     /* ROW */
