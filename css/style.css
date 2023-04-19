@@ -59,23 +59,23 @@ body{
         }
     /* FINE JUMBOTRON */
     /* PACK SECTION */
-        .pack-section-col-1{
+        .pack-col-1{
             height: 70px;
         }
 
-        .pack-section-col-2, .pack-section-col-2 .col-33{
+        .pack-col-2, .pack-col-2 .col-33{
             height: 800px;
         }
 
-        .pack-section-col-3{
+        .pack-col-3{
             margin-top: 50px;
         }
 
-        .pack-section-col-3 .col-100:first-child{
+        .pack-col-3 .col-100:first-child{
             height: 30px
         }
 
-        .pack-section-col-3 .col-100:last-child{
+        .pack-col-3 .col-100:last-child{
             height: 250px;
         }
 
@@ -88,20 +88,20 @@ body{
         }
     /* FINE PACK SECTION */
     /* PARTNER SECTION */
-        .partner-section-col{
+        .partner-col{
             height: 500px;
         }
 
-        .partner-section-col .col-100{
+        .partner-col .col-100{
             height: calc(500px / 3);
         }
     /* FINE PARTNER SECTION */
     /* OPERATION SECTION */
-        .operation-section-col-1{
+        .operation-col-1{
             height: 60px;
         }
 
-        .operation-section-col-2{
+        .operation-col-2{
             height: 400px;
         }
     /* FINE OPERATION SECTION */
@@ -114,6 +114,15 @@ body{
             height: 25px;
         }
     /* FINE BUSINESS SECTION */
+    /* TESTIMONIAL SECTION */
+        .testimonial-col{
+            height: 704px;
+        }
+
+        .testimonial-col .col-50{
+            height: calc(704px / 2);
+        }
+    /* FINE TESTIMONIAL SECTION */
 /* FINE MAIN */
 
 /* UTILITIES */
@@ -129,7 +138,12 @@ body{
 
         .container-3{
             width: 50%;
-            margin: 150px auto;
+            margin: 150px auto 0px auto;
+        }
+
+        .container-4{
+            width: 100%;
+            margin: 80px auto 0px auto;
         }
     /* FINE CONTAINER */
     /* ROW */
