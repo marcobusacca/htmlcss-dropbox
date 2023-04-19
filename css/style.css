@@ -50,7 +50,7 @@ body{
             height: 200px;
         }
 
-        .jumbotron-col-2, .jumbotron-col-3{
+        .jumbotron-col-2{
             height: 500px;
         }
 
@@ -59,23 +59,23 @@ body{
         }
     /* FINE JUMBOTRON */
     /* PACK SECTION */
-        .pack-section-col-1, .pack-section-col-2{
+        .pack-section-col-1{
             height: 70px;
         }
 
-        .pack-section-col-3, .pack-section-col-3 .col-33{
+        .pack-section-col-2, .pack-section-col-2 .col-33{
             height: 800px;
         }
 
-        .pack-section-col-4{
+        .pack-section-col-3{
             margin-top: 50px;
         }
 
-        .pack-section-col-4 .col-100:first-child{
+        .pack-section-col-3 .col-100:first-child{
             height: 30px
         }
 
-        .pack-section-col-4 .col-100:last-child{
+        .pack-section-col-3 .col-100:last-child{
             height: 250px;
         }
 
@@ -88,23 +88,32 @@ body{
         }
     /* FINE PACK SECTION */
     /* PARTNER SECTION */
-        .partner-section-col-1, .partner-section-col-2{
+        .partner-section-col{
             height: 500px;
         }
 
-        .partner-section-col-2 .col-100{
+        .partner-section-col .col-100{
             height: calc(500px / 3);
         }
     /* FINE PARTNER SECTION */
     /* OPERATION SECTION */
         .operation-section-col-1{
-            height: 50px;
+            height: 60px;
         }
 
         .operation-section-col-2{
             height: 400px;
         }
     /* FINE OPERATION SECTION */
+    /* BUSINESS SECTION */
+        .business-col-1{
+            height: 60px;
+        }
+
+        .business-col-2{
+            height: 25px;
+        }
+    /* FINE BUSINESS SECTION */
 /* FINE MAIN */
 
 /* UTILITIES */
