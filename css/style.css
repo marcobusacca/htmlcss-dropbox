@@ -21,6 +21,7 @@ body{
         display: flex;
         flex-flow: row wrap;
         align-items: center;
+        background-color: #fff;
     }
 
     .header-col-1{
@@ -32,24 +33,64 @@ body{
     }
 /* FINE HEADER */
 
+/* MAIN */
+    .jumbotron-section{
+        background-color: #B4D0E7;
+        margin-top: 50px;
+    }
+
+    .jumbotron-section > .container-2{
+        padding-top: 70px;
+        padding-bottom: 30px;
+    }
+/* FINE MAIN */
+
 /* UTILITIES */
-    .container{
-        width: 100%;
-    }
+    /* CONTAINER */
+        .container-1{
+            width: 100%;
+        }
 
-    .row{
-        width: 100%;
-        display: flex;
-        flex-flow: row wrap;
-    }
+        .container-2{
+            max-width: 1170px;
+            margin: 0 auto;
+        }
+    /* FINE CONTAINER */
+    /* ROW */
+        .row{
+            width: 100%;
+            display: flex;
+            flex-flow: row wrap;
+        }
 
+        .row-column{
+            width: 100%;
+            display: flex;
+            flex-flow: column wrap;
+        }
+    /* FINE ROW */
     .row > div{
         border: 1px dashed black;
     }
+    /* COL */
+        .col-100{
+            width: 100%;
+            height: 200px;
+        }
+        
+        .col-73{
+            width: 73%;
+            height: 500px;
+        }
 
-    .col-50{
-        width: calc(100% / 2);
-        height: 50px;
-        background-color: #fff;
-    }
+        .col-50{
+            width: calc(100% / 2);
+            height: 50px;
+        }
+
+        .col-27{
+            width: 27%;
+            height: 500px;
+        }
+    /* FINE COL */
 /* FINE UTILITIES */
