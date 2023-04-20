@@ -120,6 +120,7 @@ a{
 
             .pack-col-2{
                 width: calc(90% / 3);
+                border: 1px solid #b4b4b8;
             }
 
             .pack-sub-col-1{
@@ -375,11 +376,7 @@ a{
         .col{
             border: 1px dashed black;
         }
-
-        .col-2{
-            border: 1px solid #b4b4b8;
-        }
-
+        
         .col-white{
             border: 1px dashed #fff;
         }
