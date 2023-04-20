@@ -28,7 +28,6 @@ a{
     .header-col{
         display: flex;
         flex-flow: row wrap;
-        align-items: flex-end;
         background-color: #fff;
     }
 
@@ -41,7 +40,6 @@ a{
     }
 
     .header-content{
-        height: 100%;
         display: flex;
         flex-flow: row wrap;
         align-items: center;
@@ -49,11 +47,9 @@ a{
 
     .header-content > img{
         padding: 25px 20px 20px 20px;
-        vertical-align: middle;
     }
 
     .header-content > a{
-        vertical-align: middle;
         padding: 20px;
         color: black;
     }
