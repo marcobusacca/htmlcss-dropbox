@@ -230,7 +230,7 @@ a{
         }
 
         .container-2{
-            width: 62%;
+            max-width: 1170px;
             margin: 0 auto;
         }
 
@@ -240,16 +240,11 @@ a{
         }
 
         .container-4{
-            width: 100%;
-            margin: 80px auto 0px auto;
-        }
-
-        .container-5{
             width: 50%;
             margin: 100px auto;
         }
 
-        .container-6{
+        .container-5{
             width: 67%;
             margin: 0 auto;
         }
