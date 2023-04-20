@@ -109,13 +109,132 @@ a{
         }
     /* FINE JUMBOTRON */
     /* PACK SECTION */
-        .pack-col-1{
-            height: 70px;
-        }
+        /* PACK COL */
+            .pack-row{
+                justify-content: space-between;
+            }
 
-        .pack-col-2, .pack-col-2 .col-33{
-            height: 800px;
-        }
+            .pack-col-1{
+                padding: 50px 0px 40px 0px;
+            }
+
+            .pack-col-2{
+                width: calc(90% / 3);
+            }
+
+            .pack-sub-col-1{
+                padding: 10px;
+                border-bottom: 1px solid #b4b4b8;
+            }
+
+            .pack-sub-col-2{
+                padding: 15px 25px;
+            }
+        /* FINE PACK COL */
+        /* PACK CONTENT */
+            .pack-content > h2{
+                font-size: 38px;
+            }
+
+            .pack-content > label{
+                font-size: 14px;
+                margin-right: 35px;
+            }
+
+            .pack-content > label > input{
+                width: 18px;
+                height: 18px;
+                vertical-align: middle;
+            }
+        /* FINE PACK CONTENT */
+        /* PACK SUB CONTENT */
+            .pack-sub-content > h3{
+                font-size: 24px;
+            }
+
+            .pack-sub-content > span, .pack-sub-content > div.txt-grey{
+                font-size: 14px;
+            }
+
+            .pack-sub-content > *{
+                padding: 15px 0px;
+            }
+
+            .pack-sub-content > ul.fa-ul{
+                --fa-li-margin: 18px;
+            }
+
+            .pack-sub-content ul li{
+                padding: 15px 0px;
+            }
+
+            .pack-sub-content ul li span{
+                font-size: 13.5px;
+                vertical-align: top;
+            }
+
+            .pack-sub-content > .btn-1{
+                margin-top: 20px;
+            }
+
+            .pack-sub-content > .btn-1 > a{
+                font-size: 14px;
+                padding: 12px 34px;
+            }
+
+            .pack-sub-content > .btn-1 > a#pack-contact-us{
+                padding: 12px 83px;
+            }
+
+            .pack-sub-content > .pack-purchase{
+                margin-top: 10px;
+            }
+
+            .pack-sub-content > .pack-purchase *{
+                padding-bottom: 40px;
+                font-size: 14px;
+            }
+
+            .pack-sub-content > .pack-purchase > span{
+                border-bottom: 1px solid #D0D0D3;
+            }
+
+            .pack-sub-content > .pack-purchase > a{
+                color: #0062ff;
+                text-decoration: underline;
+            }
+        /* FINE PACK SUB CONTENT */
+        /* PACK SUB CONTENT 2 */
+            .pack-sub-content-2{
+                margin-top: 70px;
+                margin-bottom: 20px;
+            }
+
+            .pack-sub-content-2 > h4{
+                font-size: 14px;
+            }
+
+            .pack-sub-content-2 > *{
+                padding: 10px 0px;
+            }
+
+            .pack-sub-content-2 > ul.fa-ul{
+                --fa-li-margin: 18px;
+            }
+
+            .pack-sub-content-2 ul li span{
+                font-size: 13.5px;
+                vertical-align: top;
+            }
+
+            .pack-sub-content-2 ul li{
+                padding: 10px 0px;
+            }
+
+            .pack-sub-content-2 .fa-check{
+                color: #0063FF;
+            }
+        /* FINE PACK SUB CONTENT 2 */
 
         .pack-col-3{
             margin-top: 50px;
@@ -231,7 +350,7 @@ a{
         }
 
         .container-3{
-            width: 50%;
+            max-width: 950px;
             margin: 150px auto;
         }
 
@@ -255,6 +374,10 @@ a{
     /* COL */
         .col{
             border: 1px dashed black;
+        }
+
+        .col-2{
+            border: 1px solid #b4b4b8;
         }
 
         .col-white{
@@ -303,4 +426,19 @@ a{
             background-color: #0061FF;
         }
     /* FINE BUTTON */
+    /* TEXT ALIGN */
+        .txt-center{
+            text-align: center;
+        }
+    /* FINE TEXT ALIGN */
+    /* TEXT COLOR */
+        .txt-grey{
+            color: rgb(94, 94, 94);
+        }
+    /* FINE TEXT COLOR */
+    /* FONT WEIGHT */
+        .bold{
+            font-weight: 700;
+        }
+    /* FINE FONT WEIGHT */
 /* FINE UTILITIES */
