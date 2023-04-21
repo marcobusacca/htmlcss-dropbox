@@ -318,12 +318,36 @@ a{
         }
     /* FINE PARTNER SECTION */
     /* OPERATION SECTION */
-        .operation-col-1{
-            height: 60px;
+        .operation-row{
+            justify-content: space-between;
+        }
+        
+        .operation-col-2{
+            width: calc(94% / 3);
+            margin-top: 60px;
         }
 
-        .operation-col-2{
-            height: 400px;
+        .operation-content > h2{
+            font-size: 40px;
+        }
+
+        .operation-sub-content{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .operation-sub-content > img{
+            width: 95%;
+        }
+
+        .operation-sub-content > h3{
+            font-size: 24px;
+        }
+
+        .operation-sub-content > p{
+            font-size: 16px;
+            margin-top: 25px;
         }
     /* FINE OPERATION SECTION */
     /* BUSINESS SECTION */
