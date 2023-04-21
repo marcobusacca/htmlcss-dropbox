@@ -552,14 +552,6 @@ a{
         }
     /* FINE ROW */
     /* COL */
-        .col{
-            border: 1px dashed black;
-        }
-
-        .col-white{
-            border: 1px dashed #fff;
-        }
-
         .col-100{
             width: 100%;
         }
