@@ -499,18 +499,33 @@ a{
 
     .footer-row-1{
         padding: 100px 0px;
+        color: #fff;
     }
 
     .footer-row-2{
         margin-bottom: 50px;
     }
 
-    .footer-col-1, .footer-col-2{
-        border: 1px dashed #fff;
+    .footer-col-1{
+        display: flex;
+        justify-content: center;
     }
 
-    .footer-col-1{
-        height: 500px;
+    .footer-content-1 > h3{
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .footer-content-1 > ul{
+        list-style-type: none;
+    }
+
+    .footer-content-1 > ul > li{
+        padding: 5px 0px;
+    }
+
+    .footer-col-2{
+        border: 1px dashed #fff;
     }
 
     .footer-col-2{
@@ -540,7 +555,7 @@ a{
         }
 
         .container-5{
-            width: 67%;
+            max-width: 1250px;
             margin: 0 auto;
         }
     /* FINE CONTAINER */
