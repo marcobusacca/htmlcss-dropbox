@@ -497,16 +497,12 @@ a{
         background-color: #000000;
     }
 
-    .footer-row-1{
+    .footer-row{
         padding: 100px 0px;
         color: #fff;
     }
 
-    .footer-row-2{
-        margin-bottom: 50px;
-    }
-
-    .footer-col-1{
+    .footer-col{
         display: flex;
         justify-content: center;
     }
@@ -524,12 +520,22 @@ a{
         padding: 5px 0px;
     }
 
-    .footer-col-2{
-        border: 1px dashed #fff;
+    .footer-content-2{
+        margin-left: 40px;
+        border-top: 1px solid #fff;
     }
 
-    .footer-col-2{
-        height: 100px;
+    .footer-content-2 > *{
+        color: #999999;
+        padding: 50px 0px;
+    }
+
+    .footer-content-2 > span{
+        margin-left: 4px;
+    }
+
+    .footer-content-2 > i.fa-caret-up{
+        vertical-align: middle;
     }
 /* FINE FOOTER */
 
@@ -595,8 +601,8 @@ a{
             width: 20%;
         }
 
-        .col-12{
-            width: 12%;
+        .col-13{
+            width: 13%;
         }
     /* FINE COL */
     /* BUTTON */
