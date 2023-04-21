@@ -350,12 +350,21 @@ a{
         }
     /* FINE OPERATION SECTION */
     /* BUSINESS SECTION */
-        .business-col-1{
-            height: 60px;
+        .business-content-1{
+            margin-right: 350px;
         }
 
-        .business-col-2{
-            height: 25px;
+        .business-content-1 > h2{
+            font-size: 40px;
+        }
+
+        .business-content-2{
+            margin-top: 50px;
+        }
+
+        .business-content-2 > a{
+            color: #0062ff;
+            text-decoration: underline;
         }
     /* FINE BUSINESS SECTION */
     /* TESTIMONIAL SECTION */
