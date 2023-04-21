@@ -369,12 +369,86 @@ a{
     /* FINE BUSINESS SECTION */
     /* TESTIMONIAL SECTION */
         .testimonial-col{
-            height: 704px;
+            height: calc(100vw / 3);
         }
 
         .testimonial-col .col-50{
-            height: calc(704px / 2);
+            height: 50%;
         }
+
+        .testimonial-row, .testimonial-content, .testimonial-content-2{
+            width: 100%;
+            height: 100%;
+        }
+
+        .testimonial-content{
+            position: relative;
+        }
+
+        .testimonial-content > img{
+            width: 50%;
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            filter: invert(1);
+        }
+
+        .testimonial-content-2{
+            padding: 50px;
+        }
+
+        .testimonial-content-2 > img{
+            width: 50%;
+            margin-bottom: 40px;
+        }
+
+        .testimonial-content-2 > p, .testimonial-content-2 span{
+            padding: 40px 0px;
+        }
+
+        .testimonial-content-2 > p > span{
+            border-top: 1px solid #D0D0D3;
+        }
+        /* TESTIMONIAL CONTENT BG COLOR */
+            .testimonial-content-2{
+                background-color: #F5F5F5;
+            }
+
+            .testimonial-content.content-1{
+                background-color: #A2D39B;
+                border: 15px solid #D1E9CD;
+            }
+
+            .testimonial-content.content-2{
+                background-color: #61082B;
+            }
+
+            .testimonial-content.content-3{
+                background-color: #0093CE;
+            }
+
+            .testimonial-content.content-4{
+                background-color: #FF1C1C;
+            }
+
+            .testimonial-content.content-5{
+                background-color: #D5001F;
+            }
+
+            .testimonial-content.content-6{
+                background-color: #B4D0E7;
+            }
+
+            .testimonial-content.content-7{
+                background-color: #0D2481;
+            }
+
+            .testimonial-content.content-8{
+                background-color: #FFD830;
+            }
+        /* FINE TESTIMONIAL CONTENT BG COLOR */
     /* FINE TESTIMONIAL SECTION */
     /* FREE TRIAL SECTION */
         .free-trial-section{
