@@ -456,7 +456,25 @@ a{
         }
 
         .free-trial-section .col-100{
-            height: 350px;
+            padding: 120px 0px;
+        }
+
+        .free-trial-content{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .free-trial-content > h2{
+            color: #61082B;
+            font-size: 40px;
+        }
+
+        .free-trial-content > .btn-3{
+            margin-top: 2%;
+        }
+
+        .free-trial-content > .btn-3 > a{
+            padding: 8px 45px;
         }
     /* FINE FREE TRIAL SECTION */
     /* FAQ SECTION */
@@ -514,10 +532,15 @@ a{
 
         .container-4{
             max-width: 950px;
-            margin: 100px auto;
+            margin: 0 auto;
         }
 
         .container-5{
+            max-width: 950px;
+            margin: 100px auto;
+        }
+
+        .container-6{
             width: 67%;
             margin: 0 auto;
         }
@@ -580,6 +603,11 @@ a{
             color: black;
             background-color: #fff;
             border: 1px solid black;
+        }
+
+        .btn-3 > a{
+            color: black;
+            background-color: #fff;
         }
     /* FINE BUTTON */
     /* TEXT ALIGN */
