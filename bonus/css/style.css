@@ -49,8 +49,16 @@ a{
         padding: 25px 20px 20px 20px;
     }
 
-    .header-content > a{
+    .header-content > ul{
+        list-style-type: none;
+        position: relative;
+    }
+
+    .header-content > a, .header-content > ul > li{
         padding: 20px;
+    }
+
+    .header-content > a, .header-content > ul > li > a{
         color: black;
     }
 
@@ -58,6 +66,41 @@ a{
         margin-right: 20px;
         padding: 5px 15px;
     }
+    
+    .header-content ul li:not(.header-dropdown-title):hover{
+        background-color: #fff;
+        box-shadow: 1px 1px 5px #D1D9E1;
+    }
+    
+    /* HEADER DROPDOWN MENU */
+        .header-content ul.header-dropdown{
+            width: 100%;
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            list-style-type: none;
+            background-color: #fff;
+            box-shadow: 1px 1px 5px #D1D9E1;
+        }
+
+        ul.header-dropdown li{
+            padding: 10px 20px 10px 20px;
+        }
+
+        ul.header-dropdown li h6{
+            font-size: 13px;
+        }
+        
+        ul.header-dropdown li a{
+            font-size: 13px;
+            color: black;
+        }
+
+        .header-content ul li:hover ul.header-dropdown{
+            display: block;
+        }
+    /* FINE HEADER DROPDOWN MENU */
 /* FINE HEADER */
 
 /* MAIN */
