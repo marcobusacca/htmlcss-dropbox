@@ -92,10 +92,11 @@ a{
             padding: 10px 15px;
         }
    
-        .jumbotron-content > i{
+        .jumbotron-content > a > i{
             font-size: 50px;
             margin-top: 70px;
             padding-bottom: 20px;
+            color: #000000;
         }
 
         .jumbotron-content > img{
