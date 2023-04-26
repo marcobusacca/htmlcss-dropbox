@@ -486,11 +486,34 @@ a{
 
         .faq-content-2{
             display: flex;
+            flex-flow: row wrap;
             justify-content: space-between;
             align-items: center;
             padding: 40px 40px 40px 0px;
         }
+
+        .faq-content-2 > label{
+            cursor: pointer;
+        }
     /* FINE FAQ SECTION */
+    /* FAQ ACCORDION */
+        .faq-accordion{
+            display: none;
+            margin-right: 20px;
+        }
+
+        .faq-accordion > p{
+            padding-top: 30px;
+        }
+
+        .faq-content-2 input[type="checkbox"]{
+            display: none;
+        }
+
+        .faq-content-2 input[type="checkbox"]:checked + .faq-accordion{
+            display: block;
+        }
+    /* FINE FAQ ACCORDION */
 /* FINE MAIN */
 
 /* FOOTER */
