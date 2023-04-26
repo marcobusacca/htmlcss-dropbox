@@ -32,10 +32,6 @@ a{
     }
 
     .header-col-1{
-        justify-content: flex-start;
-    }
-
-    .header-col-2{
         justify-content: flex-end;
     }
 
@@ -321,7 +317,7 @@ a{
             justify-content: space-between;
         }
         
-        .operation-col-2{
+        .operation-col{
             width: calc(94% / 3);
             margin-top: 60px;
         }
